@@ -6,8 +6,8 @@ import classes from "./style.module.css"
 
 
 const LogInOrRegister=()=>{
-        const[userName,setUserName]=useState('');
-        const[userPassword,setUserPassword]=useState('')
+        // const[userName,setUserName]=useState('');
+        // const[userPassword,setUserPassword]=useState('')
        
 
     // const formSubmitHandler =()=>{
@@ -20,15 +20,15 @@ const LogInOrRegister=()=>{
     
 
 
-    const userInputedEmailHandler=(e)=>{
+    // const userInputedEmailHandler=(e)=>{
         
-        console.log('e :>> ', e);
-        setUserName(e);
-    }
-    const userInputedPasswordHandler=(e)=>{
-        setUserPassword(e)
-        console.log('e :>> ', e);
-    }
+    //     console.log('e :>> ', e);
+    //     setUserName(e);
+    // }
+    // const userInputedPasswordHandler=(e)=>{
+    //     setUserPassword(e)
+    //     console.log('e :>> ', e);
+    // }
     return (
         <>
        <div style={{textAlign:"center"}}>
