@@ -1,0 +1,19 @@
+.button{
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 7px;
+    font-weight:bold ;
+
+}
+.inputBox{
+    width: 500px !important;
+    padding: 10px;
+    border-radius: 7px ;
+    border: 1px solid blue;
+    margin: 10px;
+    text-align: center;
+}
+.inputBox:focus{
+    outline: none;
+}
